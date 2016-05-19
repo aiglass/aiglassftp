@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CD729961CED72C900208169 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD729951CED72C900208169 /* AppDelegate.swift */; };
+		3CD729981CED72C900208169 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD729971CED72C900208169 /* ViewController.swift */; };
+		3CD7299A1CED72C900208169 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CD729991CED72C900208169 /* Assets.xcassets */; };
+		3CD7299D1CED72C900208169 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CD7299B1CED72C900208169 /* Main.storyboard */; };
+		3CD729A81CED72CA00208169 /* aiglassftpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD729A71CED72CA00208169 /* aiglassftpTests.swift */; };
+		3CD729B31CED72CA00208169 /* aiglassftpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD729B21CED72CA00208169 /* aiglassftpUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CD729A41CED72C900208169 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CD7298A1CED72C900208169 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CD729911CED72C900208169;
+			remoteInfo = aiglassftp;
+		};
+		3CD729AF1CED72CA00208169 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CD7298A1CED72C900208169 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CD729911CED72C900208169;
+			remoteInfo = aiglassftp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CD729921CED72C900208169 /* aiglassftp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aiglassftp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CD729951CED72C900208169 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3CD729971CED72C900208169 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3CD729991CED72C900208169 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CD7299C1CED72C900208169 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CD7299E1CED72C900208169 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CD729A31CED72C900208169 /* aiglassftpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aiglassftpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CD729A71CED72CA00208169 /* aiglassftpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aiglassftpTests.swift; sourceTree = "<group>"; };
+		3CD729A91CED72CA00208169 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CD729AE1CED72CA00208169 /* aiglassftpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aiglassftpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CD729B21CED72CA00208169 /* aiglassftpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aiglassftpUITests.swift; sourceTree = "<group>"; };
+		3CD729B41CED72CA00208169 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CD7298F1CED72C900208169 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CD729A01CED72C900208169 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CD729AB1CED72CA00208169 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CD729891CED72C900208169 = {
+			isa = PBXGroup;
+			children = (
+				3CD729941CED72C900208169 /* aiglassftp */,
+				3CD729A61CED72C900208169 /* aiglassftpTests */,
+				3CD729B11CED72CA00208169 /* aiglassftpUITests */,
+				3CD729931CED72C900208169 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CD729931CED72C900208169 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CD729921CED72C900208169 /* aiglassftp.app */,
+				3CD729A31CED72C900208169 /* aiglassftpTests.xctest */,
+				3CD729AE1CED72CA00208169 /* aiglassftpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CD729941CED72C900208169 /* aiglassftp */ = {
+			isa = PBXGroup;
+			children = (
+				3CD729951CED72C900208169 /* AppDelegate.swift */,
+				3CD729971CED72C900208169 /* ViewController.swift */,
+				3CD729991CED72C900208169 /* Assets.xcassets */,
+				3CD7299B1CED72C900208169 /* Main.storyboard */,
+				3CD7299E1CED72C900208169 /* Info.plist */,
+			);
+			path = aiglassftp;
+			sourceTree = "<group>";
+		};
+		3CD729A61CED72C900208169 /* aiglassftpTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CD729A71CED72CA00208169 /* aiglassftpTests.swift */,
+				3CD729A91CED72CA00208169 /* Info.plist */,
+			);
+			path = aiglassftpTests;
+			sourceTree = "<group>";
+		};
+		3CD729B11CED72CA00208169 /* aiglassftpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CD729B21CED72CA00208169 /* aiglassftpUITests.swift */,
+				3CD729B41CED72CA00208169 /* Info.plist */,
+			);
+			path = aiglassftpUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CD729911CED72C900208169 /* aiglassftp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CD729B71CED72CA00208169 /* Build configuration list for PBXNativeTarget "aiglassftp" */;
+			buildPhases = (
+				3CD7298E1CED72C900208169 /* Sources */,
+				3CD7298F1CED72C900208169 /* Frameworks */,
+				3CD729901CED72C900208169 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = aiglassftp;
+			productName = aiglassftp;
+			productReference = 3CD729921CED72C900208169 /* aiglassftp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CD729A21CED72C900208169 /* aiglassftpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CD729BA1CED72CA00208169 /* Build configuration list for PBXNativeTarget "aiglassftpTests" */;
+			buildPhases = (
+				3CD7299F1CED72C900208169 /* Sources */,
+				3CD729A01CED72C900208169 /* Frameworks */,
+				3CD729A11CED72C900208169 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CD729A51CED72C900208169 /* PBXTargetDependency */,
+			);
+			name = aiglassftpTests;
+			productName = aiglassftpTests;
+			productReference = 3CD729A31CED72C900208169 /* aiglassftpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CD729AD1CED72CA00208169 /* aiglassftpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CD729BD1CED72CA00208169 /* Build configuration list for PBXNativeTarget "aiglassftpUITests" */;
+			buildPhases = (
+				3CD729AA1CED72CA00208169 /* Sources */,
+				3CD729AB1CED72CA00208169 /* Frameworks */,
+				3CD729AC1CED72CA00208169 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CD729B01CED72CA00208169 /* PBXTargetDependency */,
+			);
+			name = aiglassftpUITests;
+			productName = aiglassftpUITests;
+			productReference = 3CD729AE1CED72CA00208169 /* aiglassftpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CD7298A1CED72C900208169 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = aiglass;
+				TargetAttributes = {
+					3CD729911CED72C900208169 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					3CD729A21CED72C900208169 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3CD729911CED72C900208169;
+					};
+					3CD729AD1CED72CA00208169 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3CD729911CED72C900208169;
+					};
+				};
+			};
+			buildConfigurationList = 3CD7298D1CED72C900208169 /* Build configuration list for PBXProject "aiglassftp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CD729891CED72C900208169;
+			productRefGroup = 3CD729931CED72C900208169 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CD729911CED72C900208169 /* aiglassftp */,
+				3CD729A21CED72C900208169 /* aiglassftpTests */,
+				3CD729AD1CED72CA00208169 /* aiglassftpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CD729901CED72C900208169 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CD7299A1CED72C900208169 /* Assets.xcassets in Resources */,
+				3CD7299D1CED72C900208169 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CD729A11CED72C900208169 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CD729AC1CED72CA00208169 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CD7298E1CED72C900208169 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CD729981CED72C900208169 /* ViewController.swift in Sources */,
+				3CD729961CED72C900208169 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CD7299F1CED72C900208169 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CD729A81CED72CA00208169 /* aiglassftpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CD729AA1CED72CA00208169 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CD729B31CED72CA00208169 /* aiglassftpUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CD729A51CED72C900208169 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CD729911CED72C900208169 /* aiglassftp */;
+			targetProxy = 3CD729A41CED72C900208169 /* PBXContainerItemProxy */;
+		};
+		3CD729B01CED72CA00208169 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CD729911CED72C900208169 /* aiglassftp */;
+			targetProxy = 3CD729AF1CED72CA00208169 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3CD7299B1CED72C900208169 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CD7299C1CED72C900208169 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CD729B51CED72CA00208169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CD729B61CED72CA00208169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3CD729B81CED72CA00208169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = aiglassftp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aiglass.aiglassftp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3CD729B91CED72CA00208169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = aiglassftp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aiglass.aiglassftp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3CD729BB1CED72CA00208169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = aiglassftpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aiglass.aiglassftpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aiglassftp.app/Contents/MacOS/aiglassftp";
+			};
+			name = Debug;
+		};
+		3CD729BC1CED72CA00208169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = aiglassftpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aiglass.aiglassftpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aiglassftp.app/Contents/MacOS/aiglassftp";
+			};
+			name = Release;
+		};
+		3CD729BE1CED72CA00208169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = aiglassftpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aiglass.aiglassftpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = aiglassftp;
+			};
+			name = Debug;
+		};
+		3CD729BF1CED72CA00208169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = aiglassftpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aiglass.aiglassftpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = aiglassftp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CD7298D1CED72C900208169 /* Build configuration list for PBXProject "aiglassftp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CD729B51CED72CA00208169 /* Debug */,
+				3CD729B61CED72CA00208169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CD729B71CED72CA00208169 /* Build configuration list for PBXNativeTarget "aiglassftp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CD729B81CED72CA00208169 /* Debug */,
+				3CD729B91CED72CA00208169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3CD729BA1CED72CA00208169 /* Build configuration list for PBXNativeTarget "aiglassftpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CD729BB1CED72CA00208169 /* Debug */,
+				3CD729BC1CED72CA00208169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3CD729BD1CED72CA00208169 /* Build configuration list for PBXNativeTarget "aiglassftpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CD729BE1CED72CA00208169 /* Debug */,
+				3CD729BF1CED72CA00208169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CD7298A1CED72C900208169 /* Project object */;
+}
